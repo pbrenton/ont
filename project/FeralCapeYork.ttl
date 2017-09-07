@@ -13,7 +13,7 @@
 @prefix time: <http://www.w3.org/2006/time#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:Aerial
+ex:Aerial feral animals survey
   rdf:type prov:Activity ;
   rdfs:label "Aerial feral animals survey" ;
   proj:isSubActivityOf ex:feralcy ;
@@ -35,17 +35,17 @@ ex:feralcy
       proj:moneyAmount 0 ;
       proj:moneyCurrency <https://dbpedia.org/resource/Australian_dollar> ;
     ] ;
-  proj:hasSubActivity ex:Aerial ;
-  proj:hasSubActivity ex:Incidental ;
+  proj:hasSubActivity ex:Aerial feral animals survey ;
+  proj:hasSubActivity ex:Incidental fauna records ;
   proj:hasSubActivity ex:Limnology ;
-  proj:hasSubActivity ex:Terrestrial ;
-  proj:hasSubActivity ex:Wetland ;
+  proj:hasSubActivity ex:Terrestrial vertebrate pest fauna ;
+  proj:hasSubActivity ex:Wetland vertebrate pest fauna ;
   proj:name "Improved management of feral animals in remote tropical Australia" ;
   proj:objective "To develop a robust understanding of the costs and benefits of selected feral animal control programs on reducing impacts to natural and cultural values." ;
   proj:plannedEndTime "2022-12-31T23:59:00"^^xsd:dateTime ;
   proj:plannedStartTime "2012-12-31T00:00:00"^^xsd:dateTime ;
   proj:projectLeader <http://network.csiro.au/data/justin.perry> ;
-  proj:projectParticipant <http://network.csiro.au/data/peter.brenton> ;
+  proj:projectParticipant <http://www.kalan.org.au/> ;
   proj:projectPlan <FCY-project-plan> ;
   proj:wasFundedBy [
       rdf:type proj:FundingAssociation ;
